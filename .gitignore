@@ -6,3 +6,6 @@ venv/
 *.db
 .pytest_cache/
 .mypy_cache/
+
+*.db
+.venv/

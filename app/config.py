@@ -1,0 +1,4 @@
+﻿SECRET_KEY = "portfolio-demo-change-in-production"
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 60
+DATABASE_URL = "sqlite:///./studysync.db"
