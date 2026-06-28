@@ -129,6 +129,15 @@ tests/
 
 This repository supports the [StudySync case study](https://github.com/zacharyahutton/portfolio) on my portfolio site. It intentionally implements a **subset** of what a full product would need (no email verification, no Postgres deployment, no refresh tokens). The case study describes production-oriented patterns; this repo is the honest, runnable starter.
 
+## VS Code
+
+1. **File → Open Folder** and select this repository root.
+2. Install recommended extensions when prompted (Python or Node/Java packs).
+3. **Run and Debug** (`F5`): choose **FastAPI (uvicorn) depending on the repo.
+4. **Terminal → Run Task**: `dev: uvicorn`, `npm: dev`, or `mvn: test`.
+
+Workspace settings live in `.vscode/` (`extensions.json`, `launch.json`, `tasks.json`, `settings.json`).
+
 ## Future improvements
 
 - Alembic migrations and PostgreSQL connection string
