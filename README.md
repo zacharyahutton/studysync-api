@@ -1,6 +1,10 @@
-﻿# StudySync API
+# StudySync API
 
-StudySync is a **portfolio demonstration** FastAPI backend for tracking university courses, assignment deadlines, and study sessions. It shows JWT authentication, Pydantic validation, SQLAlchemy ORM with SQLite, and auto-generated OpenAPI docs at `/docs`. This is a learning and reference implementation—not a production SaaS.
+StudySync is a FastAPI backend for tracking university courses, assignment deadlines, and study sessions. It shows JWT authentication, Pydantic validation, SQLAlchemy ORM with SQLite, and auto-generated OpenAPI docs at `/docs`.
+
+## Why I built it
+
+I wanted a backend for something I actually use as a student: keeping track of courses, assignment deadlines and how much time I spend studying.
 
 ## Stack
 
@@ -125,9 +129,9 @@ tests/
   test_api.py       pytest smoke tests
 ```
 
-## Portfolio disclaimer
+## Limitations
 
-This repository supports the [StudySync case study](https://github.com/zacharyahutton/portfolio) on my portfolio site. It intentionally implements a **subset** of what a full product would need (no email verification, no Postgres deployment, no refresh tokens). The case study describes production-oriented patterns; this repo is the honest, runnable starter.
+No email verification, refresh tokens or Postgres deployment yet.
 
 ## VS Code
 
@@ -148,3 +152,9 @@ Workspace settings live in `.vscode/` (`extensions.json`, `launch.json`, `tasks.
 ## License
 
 MIT
+
+## Roadmap
+
+- Reminders for deadlines that are coming up
+- Postgres and Alembic migrations
+- Weekly study time summary endpoint
